@@ -334,7 +334,8 @@ if (isset($_POST['WriteImage'])) {
         </div>
     </div>
     <script type="text/javascript">
-    initialStart();
+    //initialStart();
+    setTimeout(initialStart,10000);
     </script>
     <?php
     } //END check if the form was submitted
